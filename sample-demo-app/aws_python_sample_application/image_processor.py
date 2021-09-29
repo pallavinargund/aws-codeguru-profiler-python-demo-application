@@ -11,7 +11,7 @@ import boto3
 
 BW_FOLDER = "bw-images/"
 BRIGHTEN_FOLDER = "brighten-images/"
-
+flag=True
 
 def delete_file(file_path):
     try:
